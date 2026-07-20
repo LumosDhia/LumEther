@@ -7,7 +7,16 @@ import { getImage, setImage } from "./Image";
 import { initSearchBar, getSearch, setSearch } from "./Search";
 import { getLinks, initLinkSectionKeybinds, setLinks } from "./Links";
 
+const APP_VERSION = "1.0";
+function checkVersion() {
+  if (localStorage.getItem("version") !== APP_VERSION) {
+    localStorage.clear();
+    localStorage.setItem("version", APP_VERSION);
+  }
+}
+
 function init() {
+  checkVersion();
   const imageState = getImage();
   setImage(imageState);
 

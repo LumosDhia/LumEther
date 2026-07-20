@@ -9,12 +9,12 @@ const SOCIAL_LINKS: LinkGroup = {
       href: "https://www.instagram.com/",
     },
     {
-      "display text": "Twitter",
-      href: "https://twitter.com/",
+      "display text": "Facebook",
+      href: "https://www.facebook.com/",
     },
     {
-      "display text": EMPTY_ITEM,
-      href: "",
+      "display text": "Outlook",
+      href: "https://outlook.live.com/",
     },
     {
       "display text": "Reddit",
@@ -27,6 +27,10 @@ const SOCIAL_LINKS: LinkGroup = {
     {
       "display text": "Gmail",
       href: "https://www.gmail.com/",
+    },
+    {
+      "display text": "LinkedIn",
+      href: "https://www.linkedin.com/",
     },
   ],
 };
@@ -69,42 +73,46 @@ const TOOLS_LINKS: LinkGroup = {
       href: "https://github.com/",
     },
     {
-      "display text": "Figma",
-      href: "https://www.figma.com/",
+      "display text": "Gemini",
+      href: "https://gemini.google.com/",
     },
     {
-      "display text": "ChatGPT",
-      href: "https://chat.openai.com/",
+      "display text": EMPTY_ITEM,
+      href: "",
     },
     {
-      "display text": "Coolors",
-      href: "https://www.coolors.co/",
+      "display text": EMPTY_ITEM,
+      href: "",
     },
     {
-      "display text": "Patterns",
-      href: "https://www.heropatterns.com/",
+      "display text": EMPTY_ITEM,
+      href: "",
     },
     {
-      "display text": "Everforest",
-      href: "https://github.com/sainnhe/everforest",
+      "display text": EMPTY_ITEM,
+      href: "",
+    },
+    {
+      "display text": EMPTY_ITEM,
+      href: "",
     },
   ],
 };
 
 const FAVORITES_LINKS: LinkGroup = {
-  title: "Favorites",
+  title: "Personal",
   links: [
     {
-      "display text": "lh:3000",
-      href: "http://localhost:3000",
+      "display text": "Portfolio",
+      href: "https://lumosdhia.com",
     },
     {
-      "display text": "lh:8080",
-      href: "http://localhost:8080",
+      "display text": EMPTY_ITEM,
+      href: "",
     },
     {
-      "display text": "lh:5173",
-      href: "http://localhost:5173",
+      "display text": EMPTY_ITEM,
+      href: "",
     },
     {
       "display text": EMPTY_ITEM,

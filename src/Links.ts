@@ -10,13 +10,13 @@ const LinkSchema = z.object({
   href: z.union([z.string().url("Invalid href"), z.literal("")]),
 });
 
-export const LINK_COUNT = 6 as const;
+export const LINK_COUNT = 7 as const;
 const LinkGroupSchema = z
   .object({
     title: z.string(),
     links: z
       .array(LinkSchema)
-      .max(LINK_COUNT, "Each link group can only have 6 links."),
+      .max(LINK_COUNT, "Each link group can only have 7 links."),
   })
   .strict();
 
@@ -37,7 +37,7 @@ export class Link {
   }
 }
 
-type AllLinks = [Link, Link, Link, Link, Link, Link];
+type AllLinks = [Link, Link, Link, Link, Link, Link, Link];
 export type AllLinkGroups = [
   LinkGroup,
   LinkGroup,
@@ -192,7 +192,7 @@ export function initLinkSectionKeybinds(): void {
     }
     switch (e.key) {
       case "ArrowDown": {
-        linkFocusIndex = Math.min(linkFocusIndex + 1, 5);
+        linkFocusIndex = Math.min(linkFocusIndex + 1, 6);
 
         onArrowKey();
         break;
