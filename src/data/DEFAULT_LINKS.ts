@@ -62,6 +62,10 @@ const REDDIT_LINKS: LinkGroup = {
       "display text": EMPTY_ITEM,
       href: "",
     },
+    {
+      "display text": EMPTY_ITEM,
+      href: "",
+    },
   ],
 };
 
@@ -126,6 +130,10 @@ const FAVORITES_LINKS: LinkGroup = {
       "display text": EMPTY_ITEM,
       href: "",
     },
+    {
+      "display text": EMPTY_ITEM,
+      href: "",
+    },
   ],
 };
 const MEDIA_LINKS: LinkGroup = {
@@ -138,6 +146,10 @@ const MEDIA_LINKS: LinkGroup = {
     {
       "display text": "YT Music",
       href: "https://music.youtube.com",
+    },
+    {
+      "display text": EMPTY_ITEM,
+      href: "",
     },
     {
       "display text": EMPTY_ITEM,
