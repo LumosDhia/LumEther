@@ -12,23 +12,13 @@ It's not mobile friendly as it was designed for use on a laptop/desktop.
 
 Swap out the colors or the image if they're not to your liking. Here are some pre-configured themes to get you started.
 
-Everforest dark
-![Ether - Everforest dark theme](https://i.postimg.cc/jjggsXtx/everforest-dark.jpg)
+| Everforest dark | Catppuccin | Dracula |
+|---|---|---|
+| <img src="https://i.postimg.cc/jjggsXtx/everforest-dark.jpg" width="250"/> | <img src="https://i.postimg.cc/zGNPpvxr/catppuccin.jpg" width="250"/> | <img src="https://i.postimg.cc/q7MDVYfD/dracula.jpg" width="250"/> |
 
-Catppuccin
-![Ether - Catppuccin theme](https://i.postimg.cc/zGNPpvxr/catppuccin.jpg)
-
-Dracula
-![Ether - Dracula theme](https://i.postimg.cc/q7MDVYfD/dracula.jpg)
-
-Gruvbox
-![Ether - Gruvbox theme](https://i.postimg.cc/bJZ6dtwQ/gruvbox.jpg)
-
-Nord
-![Ether - Nord theme](https://i.postimg.cc/kgyYHCHt/nord.jpg)
-
-B&W
-![Ether - B&W theme](https://i.postimg.cc/28hK4hFG/b-w.jpg)
+| Gruvbox | Nord | B&W |
+|---|---|---|
+| <img src="https://i.postimg.cc/bJZ6dtwQ/gruvbox.jpg" width="250"/> | <img src="https://i.postimg.cc/kgyYHCHt/nord.jpg" width="250"/> | <img src="https://i.postimg.cc/28hK4hFG/b-w.jpg" width="250"/> |
 
 ## Configuration Options
 
