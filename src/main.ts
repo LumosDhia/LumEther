@@ -7,7 +7,7 @@ import { getImage, setImage } from "./Image";
 import { initSearchBar, getSearch, setSearch } from "./Search";
 import { getLinks, initLinkSectionKeybinds, setLinks } from "./Links";
 
-const APP_VERSION = "1.0";
+const APP_VERSION = "1.0.5";
 function checkVersion() {
   if (localStorage.getItem("version") !== APP_VERSION) {
     localStorage.clear();

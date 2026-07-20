@@ -77,20 +77,20 @@ const TOOLS_LINKS: LinkGroup = {
       href: "https://gemini.google.com/",
     },
     {
-      "display text": EMPTY_ITEM,
-      href: "",
+      "display text": "Cloudflare",
+      href: "https://dash.cloudflare.com/",
     },
     {
-      "display text": EMPTY_ITEM,
-      href: "",
+      "display text": "LeetCode",
+      href: "https://leetcode.com/",
     },
     {
-      "display text": EMPTY_ITEM,
-      href: "",
+      "display text": "Esprit",
+      href: "https://arp.esprit.tn",
     },
     {
-      "display text": EMPTY_ITEM,
-      href: "",
+      "display text": "Blackboard",
+      href: "https://esprit.blackboard.com/",
     },
     {
       "display text": EMPTY_ITEM,
